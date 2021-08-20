@@ -1,0 +1,163 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+.nav{
+    height:70px;
+    padding: 15px 0 0 60px;
+    background-color: #85087B;
+}
+.nav h3{
+    color: white;
+}
+.hero{
+    height: 550px;
+    width: 100vw;
+}
+.hero p{
+    font-size:17px;
+    color: black;
+}
+.hero h2{
+    font-size:60px;
+    color: #85087B;
+}
+.hero hr{
+    width:180px;
+    color: #85087B;
+    border: 2px solid #85087B;
+}
+.hero img{
+    width: 100%;
+}
+@media(max-width:992px){
+    .hero img{
+        margin-top: 80px;
+    }
+}
+@media(max-width:769px){
+    .hero img{
+        display: none;
+    }
+}
+.hero-text{
+    padding: 100px 0 0 0;
+}
+@media(max-width:769px){
+    .hero-text{
+        padding: 100px 20px 0;
+    }
+}
+.about{
+    background-color: rgba(189, 158, 186, 0.1);
+    padding: 50px 0;
+    margin: 40px 0 70px;
+}
+.about h2{
+    color: #85087B;
+    text-align: center;
+}
+.gen-hr{
+    width:80px;
+    color: #85087B;
+    border: 2px solid #85087B;
+    margin: auto;
+}
+.about button{
+    padding:7px 20px;
+    color: white;
+    background-color: #85087B;
+    border: 1px solid #85087B;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.services{
+    text-align: center;
+}
+.services h3{
+    color: #85087B;
+}
+.services img{
+    width: auto;
+    height: 70px;
+    display: block;
+    margin: 20px auto;
+}
+.card1{
+    margin: 15px 20px;
+    border: 1px solid #85087B;
+    border-radius: 7px;
+    padding: 15px;
+}
+.experience{
+    margin: 70px 0;
+    background-color: #85087B;
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+.experience hr{
+    width:80px;
+    color: white;
+    border: 2px solid white;
+    margin: auto;
+}
+.card2{
+    background-color: white;
+    border-radius: 7px;
+    margin: 10px 10px 25px;
+    padding: 20px;
+}
+.card2 img{
+    width: auto;
+    height:80px;
+}
+.experience a{
+    color: black;
+    text-decoration: none;
+}
+.experience h4{
+    margin-top: 20px;
+}
+.contact{
+    padding: 20px 0 60px;
+    text-align: center;
+}
+.contact h3{
+    color: #85087B;
+}
+input{
+    width: 60%;
+    height: 40px;
+    padding: 10px 20px;
+    margin: 10px auto 25px ;
+    background-color: rgba(189, 158, 186, 0.2);
+    border: 1px solid rgba(189, 158, 186, 0.2);
+    border-radius: 10px;
+}
+textarea{
+    width: 60%;
+    height: 100px;
+    padding: 10px 20px;
+    margin: 10px auto 25px ;
+    background-color: rgba(189, 158, 186, 0.2);
+    border: 1px solid rgba(189, 158, 186, 0.2);
+    border-radius: 10px;
+}
+@media(max-width:900px){
+    input, textarea{width: 100%;}
+}
+.footer{
+    background-color: #85087B;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.footer-icons{
+    width: 320px;
+    display: block;
+    margin: auto;
+}
+.footer-icons img{
+    margin: 0 10px;
+}
